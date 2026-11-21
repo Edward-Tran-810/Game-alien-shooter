@@ -1,0 +1,29 @@
+{
+  "version": "2023.1",
+  "applications": [],
+  "platforms": [
+    {
+      "name": "PYNQ-Z1-matrix"
+    }
+  ],
+  "systems": [
+    {
+      "name": "Embedded_Exercise_system",
+      "platform": "P:/Johsul_harkka/PYNQ-Z1-matrix/export/PYNQ-Z1-matrix/PYNQ-Z1-matrix.xpfm",
+      "sysConfig": "PYNQ-Z1-matrix",
+      "buildConfig": "Debug",
+      "applications": [
+        {
+          "name": "Embedded_Exercise",
+          "platform": "P:/Johsul_harkka/PYNQ-Z1-matrix/export/PYNQ-Z1-matrix/PYNQ-Z1-matrix.xpfm",
+          "platformPath": "P:\\Johsul_harkka\\PYNQ-Z1-matrix\\export\\PYNQ-Z1-matrix",
+          "sysConfig": "PYNQ-Z1-matrix",
+          "domain": "standalone_domain",
+          "system": "Embedded_Exercise_system"
+        }
+      ],
+      "platformPath": "P:\\Johsul_harkka\\PYNQ-Z1-matrix\\export\\PYNQ-Z1-matrix"
+    }
+  ],
+  "others": []
+}
