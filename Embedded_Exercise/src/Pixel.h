@@ -16,8 +16,8 @@
 #include "xscugic.h"
 #include "xparameters.h"
 
-
-
+#define controlSignal *(uint8_t *)0x41220008 // Control signals register
+#define channel *(uint8_t *)0x41220000 // Channel register
 
 void setup();
 void SetPixel(uint8_t x,uint8_t y, uint8_t r, uint8_t g, uint8_t b);
